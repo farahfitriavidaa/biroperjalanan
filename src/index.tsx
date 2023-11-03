@@ -4,7 +4,7 @@ import { Outlet, Route, BrowserRouter, Routes } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import App from './App';
+import App from './Home';
 import Login from './auth/Login'
 import Register from './auth/Register'
 import Profil from './dashboard/Profil'
@@ -22,7 +22,7 @@ root.render(
     <BrowserRouter>
       <Outlet />
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/home" element={<App />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/list" element={<ListTourist />} />

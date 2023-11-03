@@ -9,11 +9,14 @@ function Header() {
     <div className="" id="navbarSupportedContent">
       <ul className="navbar-nav navbar-collapse mb-2 mb-lg-0">
         <li className="nav-item">
+          <Link to='/home' className="btn cursor-pointer">
+                Home
+          </Link>
+        </li>
         <li className="nav-item">
           <Link to='/login' className="btn cursor-pointer">
                 Login
           </Link>
-        </li>
         </li>
         <li className="nav-item">
           <Link to="/register"><button className="btn mx-3" style={{backgroundColor: '#FFFFFF',padding:'8px'}}>Register</button></Link>

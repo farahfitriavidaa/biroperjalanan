@@ -29,7 +29,7 @@ function ListTour(){
           </button>
           </Link>
         </div>
-        <div className="border mx-5" style={{width:'85%'}}>
+        <div className="mx-5" style={{width:'85%'}}>
       <Pagination data={exampleData} pageSize={10} children={<Item {...exampleData[0]} />} />
         </div>
     </div>
